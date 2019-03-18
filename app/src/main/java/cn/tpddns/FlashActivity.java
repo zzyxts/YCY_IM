@@ -27,8 +27,10 @@ public class FlashActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 startActivity(new Intent(FlashActivity.this, MainActivity.class));
+                finish();
             }
 
         }).start();
+
     }
 }
